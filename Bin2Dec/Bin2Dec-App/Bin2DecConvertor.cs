@@ -10,6 +10,7 @@ namespace Bin2Dec_App
     {
         public static int ConvertBinarytoDecimal(int BinaryNumber)
         {
+            //implement later
             throw new NotImplementedException();
         }
     }
