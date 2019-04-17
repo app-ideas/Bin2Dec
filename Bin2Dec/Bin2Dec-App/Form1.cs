@@ -50,7 +50,7 @@ namespace Bin2Dec_App
             }
             else
             {
-                Bin2DecConvertor.ConvertBinarytoDecimal(Convert.ToInt32(txtBinary.Text));
+               txtDecimal.Text = Bin2DecConvertor.ConvertBinarytoDecimal(Convert.ToInt32(txtBinary.Text)).ToString();
             }
             
         }
