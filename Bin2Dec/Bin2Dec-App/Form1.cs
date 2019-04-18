@@ -32,6 +32,7 @@ namespace Bin2Dec_App
             }
             else
             {
+                MessageBox.Show("Only Binary Numbers allowed", "Error", MessageBoxButtons.OK);
                 e.Handled = true;
             }
             // If you want, you can allow decimal (float) numbers
